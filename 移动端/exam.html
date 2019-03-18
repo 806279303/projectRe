@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/exam.css">
+	<script src="js/jquery-1.8.3.min.js">
+	</script>
+	<script type="text/javascript" src="js/exam_fail.js">
+	</script>
+	<script>
+		(function setSize(){
+		var _html = document.getElementsByTagName('html')[0];
+		var ch = document.documentElement.clientWidth;
+		ch>640?_html.style.fontSize = '40px':_html.style.fontSize = ch / 16 + 'px';
+		window.onresize = setSize;
+		})();
+	</script>
+</head>
+<body>
+	<header>
+		<div class="top_img"><img src="img/login/5.png" alt=""></div>
+		<span>2017学生手册考试</span>
+	</header>
+
+	<main id="main">
+		<div class="box" id="box">
+			<form action="">
+				<p>
+				<span class="question">这这这这这这这这这这这这这这这这这这这这这这这</span>
+				</p>
+				<p>
+<!-- 下面这个q11是question1的第1个选项意思 -->
+					<label for="q11">
+					<input type="radio" id="q11" name="question"><i></i><span class="choosed">A.aaaaa</span>			
+					</label>
+				</p>
+				<p>
+					<label for="q12">
+					<input type="radio" id="q12" name="question"><i></i><span class="choosed">B.bbbbb</span>			
+					</label>
+				</p>
+				<p>
+					<label for="q13">
+					<input type="radio" id="q13" name="question"><i></i><span class="choosed">C.ccccc</span>			
+					</label>
+				</p>
+				<!-- <p>
+					<label for="q14">
+					<input type="radio" id="q14" name="question"><i></i><span>D.ddddd</span>			
+					</label>
+				</p> -->
+			</form>
+		</div>		
+		
+		
+
+		<a href="" id="a1">提交</a>
+		<div class="footer"></div>
+	</main>
+
+	<div id="submit_fail">
+		<div class="tbox">
+			<i><img src="img/exam/2.png" alt=""></i>
+			<span>你还有题目未完成</span>
+		</div>
+		<button id="a2">确定</button>
+	</div>
+
+	<div id="submit_sure">
+		<div class="tbox">
+			<i><img src="img/exam/2.png" alt=""></i>
+			<span>确认提交吗？</span>
+		</div>
+		<div class="two_choice">
+			<input type="submit" id="sure_submit" value="提交">
+			<button id="reset_submit">取消</button>
+		</div>
+	</div>
+
+</body>
+</html>

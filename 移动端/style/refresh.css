@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+a{
+	margin-top: 7.1rem;
+	display: block;
+	text-align: center;
+	-webkit-tap-highlight-color:transparent;
+}
+a img{
+	width: 5.15rem;
+	height: 5.4rem;
+}
+span{
+	font-size: .75rem;
+	color: #bfbfbf;
+	display: inline-block;
+	margin-top: 2.25rem;
+
+}
+div{
+	text-align: center;
+}

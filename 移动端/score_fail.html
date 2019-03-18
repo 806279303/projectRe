@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/score_fail.css">
+	<script>
+		(function setSize(){
+		var _html = document.getElementsByTagName('html')[0];
+		var ch = document.documentElement.clientWidth;
+		ch>640?_html.style.fontSize = '40px':_html.style.fontSize = ch / 16 + 'px';
+		window.onresize = setSize;
+		})();
+	</script>
+</head>
+<body>
+	<header>
+		<div class="top_img"><img src="img/login/5.png" alt=""></div>
+		<span>2017学生手册考试</span>
+	</header>
+
+	<main>
+		<div class="box">
+			<h3>很遗憾<br>您的成绩为</h3>
+			<span>32</span>
+			<h3>成绩无效，再试一次吧！</h3>
+		</div>
+		<a href="">再试一次</a>
+	</main>
+</body>
+</html>

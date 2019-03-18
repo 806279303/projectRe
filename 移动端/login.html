@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/login.css">	
+	<script>
+		(function setSize(){
+		var _html = document.getElementsByTagName('html')[0];
+		var ch = document.documentElement.clientWidth;
+		ch>640?_html.style.fontSize = '40px':_html.style.fontSize = ch / 16 + 'px';
+		window.onresize = setSize;
+		})();
+	</script>
+	
+<!-- 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	
+	<script type="text/javascript" src="layer/layer.js"></script> -->
+
+	<script type="text/javascript" src="js/login_fail.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div class="top_img"><img src="img/login/5.png" alt=""></div>
+		<span>学生手册考试系统</span>
+	</header>
+
+	<main>
+		<div class="G_logo"><img src="img/login/1.png" alt=""></div>
+		<div class="span"><span>请使用数字广外账号密码登录</span></div>
+		<div for="" class="div first_input" id="input"><i><img src="img/login/3.png" alt=""></i><input type="number" placeholder="账号" autocomplete="on"></div>
+		<div for="" class="div first_input b"><i><img src="img/login/4.png" alt=""></i><input type="password" placeholder="密码"></div>
+		<a href="" id="a">登陆</a>
+	</main>
+
+	<div id="login_fail">
+		<i><img src="img/login/2.png" alt=""></i>
+		<span>请输入正确的账号密码</span>
+	</div>
+</body>
+</html>

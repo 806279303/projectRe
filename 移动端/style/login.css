@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+}
+header{
+	height: 2.8rem;
+	background-color: #004593;
+	text-align: center;
+}
+.top_img img{
+	width: 5.4rem;
+	height: 1rem;
+}
+.top_img{
+	margin:0 auto;
+}
+header span{
+	text-align: center;
+	font-size: .825rem;
+	color: #ffffff;
+}
+main{
+	height: 22.5rem;
+	background: url(../img/login/0.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.G_logo img{
+	width: 4.1rem;
+	height: 4.1rem;
+}
+.G_logo{
+	text-align: center;
+	padding-top: .5em;
+	
+}
+main span{
+	margin-top: .8rem;
+	display: inline-block; 
+	font-size: .625rem;
+	text-align: center;
+	color: #004593;
+	position: relative;
+}
+main span:before{
+	content: '';
+	width: 2.2rem;
+	height: 2px;
+	background-color: #004593;
+	position: absolute;
+	transform-origin: 0 1px;
+	transform:rotate(180deg);
+	top:50%;
+	left: -.35rem;
+}
+main span:after{
+	content: '';
+	width: 2.2rem;
+	height: 2px;
+	background-color: #004593;
+	position: absolute;
+	top:50%;
+	margin-left: .35rem;
+}
+.span{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.first_input{
+	margin:auto;
+	height: 2.05em;
+	width: 13.2rem;
+	background-color: rgba(0,69,147,.7);
+	margin-bottom: .4rem;
+	position: relative;
+}
+main i{
+	width: 1.4rem;
+	/*background-color: green;*/
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+main i img{
+	margin-left: 10%;
+	margin-top: 30%;
+	vertical-align: middle;
+	width: 1.1rem;
+	height: 1.1rem;
+}
+input{
+	position: absolute;
+	right: 0px;
+	top: 0;
+	margin: auto;
+	display: block;
+	height: 2rem;
+	width: 11.7rem;
+	background-color: rgba(0,69,147,0);
+	outline: none;
+	text-decoration: none;
+	border:none;
+	border-radius: 2px;
+	font-size: .8rem;
+	vertical-align: middle;
+	line-height: 2.7em;
+	
+}
+input[type="password"]{
+	padding-top: .05m;
+}
+input::-webkit-input-placeholder{
+	color: #ffffff;
+	font-size: .8rem;
+}
+
+a{	
+	margin:1.2rem auto;
+	text-align: center;
+	display: block;
+	height: 2.05em;
+	width: 13.2rem;
+	background-color: rgba(0,69,147,1);
+	font-size: 1.05rem;
+	color: #ffffff;
+	line-height: 2.05em;
+	text-decoration: none;
+	letter-spacing:3px;
+}	
+#login_fail{
+	position: absolute;
+	left: 50%;
+	margin-left: -4.425rem;
+	top: 6.3rem;
+	width: 8.85rem;
+	height: 2rem;
+	background-color: rgba(255,255,255,.7);
+	text-align: center;
+	vertical-align: middle;
+		display: none;
+}
+#login_fail i{
+
+}
+#login_fail img{
+	width: .8rem;
+	height: .7rem;
+	margin-top: .65rem;
+	position: absolute;
+
+}
+#login_fail span{
+	font-size: .6rem;
+	line-height: 2rem;
+	color: #dd2c2c;
+	margin-left: 1rem;
+
+}

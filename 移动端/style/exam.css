@@ -1,0 +1,211 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+a{
+
+	display: block;
+	text-align: center;
+	-webkit-tap-highlight-color:transparent;
+}
+header{
+	height: 2.8rem;
+	background-color: #004593;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+.top_img img{
+	width: 5.4rem;
+	height: 1rem;
+}
+.top_img{
+	margin:0 auto;
+}
+header span{
+	text-align: center;
+	font-size: .825rem;
+	color: #ffffff;
+}
+main{
+	background: url(../img/exam/0.jpg) 0 0 no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+	min-height: 12.5rem;
+	padding-top: 1.35rem;
+	margin-top: 2.8rem;
+	z-index: 1;
+}
+#box{
+	margin:auto;
+	width: 14.2rem;
+	min-height: 9.5rem;
+	background-color: #eeeeee;
+	box-shadow: 0 10px 30px rgba(169,169,169,.2);
+	border-radius: 5px;
+	margin-bottom: .6rem;
+}
+form{
+	padding: 1.05rem .65rem;
+}
+p{
+	font-size: .7rem;
+	line-height:1.25rem;
+	font-weight: bold;
+	
+}
+p:first-child{
+	line-height: 1rem;
+}
+p:nth-child(2){
+	margin-top:1rem; 
+}
+label p{
+	vertical-align: middle;
+}
+label i{
+	width: 1rem;
+	height:1rem;
+	background:url(../img/exam/3.png) center center no-repeat;
+	background-size: contain;
+	display: inline-block;
+	margin-top: .1rem;
+}
+label input{
+	display: none;
+}
+label input:checked + i{
+	width: 1rem;
+	height:1rem;
+	background:url(../img/exam/1.png) 0 0 no-repeat;
+	background-size: contain;
+
+}
+label span{
+	position: absolute;
+	display: inline-block;
+	margin-left: .3rem;
+
+}
+ main a{
+	display: block;
+	margin:.45rem auto;
+	text-align: center;
+	width: 14.2rem;
+	height: 2.4rem;
+	color: #ffffff;
+	line-height: 2.4rem;
+	text-decoration: none;
+	background-color: #0e6ad1;
+	letter-spacing: 3px;
+	border-radius: 3px;
+}
+.footer{
+	height: .5rem;
+}
+#submit_fail{
+	position: absolute;
+	width: 12.7rem;
+	height: 5.95rem;
+	top: 10.5rem;
+	text-align: center;
+	left: 50%;
+	margin-left: -6.35rem;
+	position: fixed;
+	display: none;
+}
+#submit_fail .tbox{
+	width: 12.7rem;
+	height: 3.45rem;
+	background-color: white;
+	border-radius: 3px 3px 0 0;
+	line-height: 3.45rem;
+}
+#submit_fail .tbox img{
+	width: 1.35rem;
+	height: 1.35rem;
+	position: absolute;
+	margin-top: 1.1rem;
+}
+#submit_fail span{
+	font-size: .75rem;
+	margin-left: 1.7rem;
+}
+#submit_fail button{
+	display: block;
+	width: 12.7rem;
+	height: 2.5rem;
+	background-color: #0e6ad1;
+	font-size: .75rem;
+	line-height: 2.5rem;
+	text-align: center;
+	border-radius: 0 0 3px 3px;
+	text-decoration: none;
+	color: white;
+}
+#submit_sure{
+	position: absolute;
+	width: 12.7rem;
+	height: 5.95rem;
+	top: 10.5rem;
+	text-align: center;
+	left: 50%;
+	margin-left: -6.35rem;
+	position: fixed;
+	display: none;
+}
+#submit_sure .tbox{
+	width: 12.7rem;
+	height: 3.45rem;
+	background-color: white;
+	border-radius: 3px 3px 0 0;
+	line-height: 3.45rem;
+}
+#submit_sure .tbox img{
+	width: 1.35rem;
+	height: 1.35rem;
+	position: absolute;
+	margin-top: 1.1rem;
+}
+#submit_sure span{
+	font-size: .75rem;
+	margin-left: 1.7rem;
+}
+#submit_sure .two_choice{
+	display: block;
+	width: 12.7rem;
+	height: 2.5rem;
+	font-size: .75rem;
+	line-height: 2.5rem;
+	text-align: center;
+	border-radius: 0 0 3px 3px;
+	text-decoration: none;
+	color: white;
+}
+#submit_sure .two_choice input,button{
+	display: block;
+	width: 50%;
+	height: 2.5rem;
+/*	background-color: #0e6ad1;*/
+	font-size: .75rem;
+	line-height: 2.5rem;
+	text-align: center;
+	border-radius: 3px 0 0 3px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	float: left;
+}
+#submit_sure .two_choice input{
+	background-color: #0e6ad1;
+}
+#submit_sure .two_choice button{
+	background-color: #cccccc;
+}
+
